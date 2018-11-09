@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+"configurations": [
+    {
+    // MacOS
+    "name": "Launch Program(lldb)",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceRoot}/wumpsim",
+    "args": ["-world", "testworld.txt", "-tries", "10"],
+    "stopAtEntry": false,
+    "cwd": "${workspaceRoot}",
+    "environment": [],
+    "externalConsole": true,
+    "MIMode": "lldb"
+    },
+  ]
+}
